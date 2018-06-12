@@ -31,11 +31,13 @@ comment:
   secret: 7e85fbfaf92187d769ca1cde7270dfe585bfc867
   owner: git-duzhengjie
   repo: git-duzhengjie.github.io
-
+anchorjs: true
 search:
   path: search.json
-field: post
-
+  field: post
+# 文章样式(是否首行缩进)：
+post_style:
+  indent: indent
 # Directory
 source_dir: source
 public_dir: public
@@ -59,8 +61,8 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: 
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
