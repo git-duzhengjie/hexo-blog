@@ -30,7 +30,7 @@ comment:
   id: 0088ec0e0601ed2c1cd6
   secret: 7e85fbfaf92187d769ca1cde7270dfe585bfc867
   owner: git-duzhengjie
-repo: hexo-blog
+  repo: git-duzhengjie.github.io
 
 search:
   path: search.json
