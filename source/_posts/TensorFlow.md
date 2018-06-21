@@ -28,6 +28,22 @@ TensorFlow™ 是一个采用数据流图（data flow graphs），用于数值�
 -  __多语言支持__ ：Tensorflow 有一个合理的c++使用界面，也有一个易用的python使用界面来构建和执行你的graphs。你可以直接写python/c++程序，也可以用交互式的ipython界面来用Tensorflow尝试些想法，它可以帮你将笔记、代码、可视化等有条理地归置好。当然这仅仅是个起点——我们希望能鼓励你创造自己最喜欢的语言界面，比如Go，Java，Lua，Javascript，或者是R。
 -  __性能最优化__ ：比如说你又一个32个CPU内核、4个GPU显卡的工作站，想要将你工作站的计算潜能全发挥出来？由于Tensorflow 给予了线程、队列、异步操作等以最佳的支持，Tensorflow 让你可以将你手边硬件的计算潜能全部发挥出来。你可以自由地将Tensorflow图中的计算元素分配到不同设备上，Tensorflow可以帮你管理好这些不同副本。
 
+# 3 基于TensorFlow的应用
+- AlphaGo
+- 自动驾驶
+- 天文学寻找类似地球的行星
+- 荷兰的养殖场监测奶牛的行为和身体数据，使用 TensorFlow 来分析奶牛健康状况
+- 巴西亚马逊丛林的护林人员，使用 TensorFlow 来识别丛林中的声音，来判断是否有盗伐者
+- 在非洲，开发者使用 TensorFlow 制作出判断植物是否生病的手机应用，只要对植物进行拍照，就能进行鉴定
+- Google 开源了基于 TensorFlow 的 Magenta 项目，一个功能是能够自动生成音乐，你输入一个音符，程序能够建议下一个音符
+- 在艺术和文化领域，你可以拍一个照片，程序能找出和你相似的艺术照片
+- 谷歌翻译可以在没有联网的情况下实时进行翻译。有这样一个上面印有“Milk”的包装盒，你只要打开谷歌翻译并用手机对准它，谷歌翻译就能自动识别文字，自动翻译出“牛奶”，并把翻译的结果贴在原来这个照片上
+- Google 的大量产品使用了 TensorFlow。比如在语音方面，包括语言的识别和合成，像 DeepMind 发布的语音合成算法 WaveNet，合成的效果非常好。对人机对话，Google I/O 发布了 AI 打电话预定的 Demo，叫做 Google Duplex
+- 在视觉方面，Google Photos 能自动把所有照片做分析，识别里面的人和物体，自动得到一些标签，你可以直接搜索这些照片，不再需要手动加标签。还有 Google 的 Pixel 系列手机，拍照模式中，自动把前景突出一些，背景模糊化处理
+- 在机器人领域，可以使用 TensorFlow 让四脚机器人学习如何站立和平衡
+- 使用 TensorFlow 来帮助 Google 数据中心做能耗优化
 # 参考
-http://www.tensorfly.cn/
+1. http://www.tensorfly.cn/
+2. https://blog.csdn.net/jILRvRTrc/article/details/80578131
+
 
