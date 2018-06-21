@@ -113,9 +113,23 @@ Grafana是一个纯粹的html/js应用，访问InfluxDB时不会有跨域访问�
 
 ![](/images/influxdb-4.png)
 
+# 7 与SQL数据库比较
+## 7.1 总体
+InfluxDB被设计用来处理时序数据，而SQL数据库可以处理时序数据但并不是它的主要目的。InfluxDB还有一个区别于SQL数据库的地方就是它可以存储大规模的时序数据，并且快速地对其进行实时分析。
 
-# 7 参考
-http://www.ttlsa.com/monitor-safe/monitor/distributed-time-series-database-influxdb/
+## 7.2 时序就是一切
+InfluxDB中时间戳是标识任何数据队列中数据的唯一性的标志，这与SQL数据库中，主键唯一标识一行数据一样。
+
+## 7.3 术语对比
+在InfluxDB中你不用事先定义一张表，你可以随时增加一个表的字段。InfluxDB中表被称作measurement，索引被称作tag，没有索引的字段称作field，行被称作points。InfluxDB不支持join操作。InfluxDB中的时间戳必须是Unix时间戳（GMT）或者格式化为RFC3339的有效时间字符串。
+
+## 7.4 InfluxSQL vs SQL
+
+InfluxSQL 是一种类似于SQL的语言，除了不支持Join以外，其他大部分都支持，包括支持正则表达式、支持GROUP BY、支持MAX、支持COUNT等函数。
+
+# 8 参考
+1. http://www.ttlsa.com/monitor-safe/monitor/distributed-time-series-database-influxdb/
+2. https://docs.influxdata.com/influxdb/v1.5/concepts/crosswalk/
 
 
 
