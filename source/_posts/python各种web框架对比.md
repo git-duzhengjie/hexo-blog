@@ -28,7 +28,7 @@ tags:
 # 6 Sanic
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;与flask类似，并支持异步
 # 7 Vibora
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旨在成为最快的python web框架。vibora的高性能依赖于 cython实现的uvloop异步框架及cython实现的http_parser, 再加上一些cython构建的web组件，比如 模板，user-route等。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旨在成为最快的python web框架。vibora的高性能依赖于 cython实现的uvloop异步框架及cython实现的http_parser, 再加上一些cython构建的web组件，比如 模板，user-route等。目前还处于测试阶段。
 
 # 8 Bottle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bottle是一个简单高效的遵循WSGI的微型python Web框架。说微型，是因为它只有一个文件，除Python标准库外，它不依赖于任何第三方模块。
