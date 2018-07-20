@@ -18,7 +18,7 @@ tags:
 
 # 3 Tornado
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tornado是一种 Web 服务器软件的开源版本。Tornado 和现在的主流 Web 服务器框架（包括大多数 Python 的框架）有着明显的区别：它是非阻塞式服务器，而且速度相当快。  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;得利于其 非阻塞的方式和对epoll的运用，Tornado 每秒可以处理数以千计的连接，因此 Tornado 是实时 Web 服务的一个 理想框架。不过现在与众多的框架比较，Tornado已经被抛在了后面，Django已经超过了它，更不说其他框架了，只能说Tornado使用纯python开发的性能还是不能与其他框架借助于cython开发的性能。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;得利于其 非阻塞的方式和对epoll的运用，Tornado 每秒可以处理数以千计的连接，因此 Tornado 是实时 Web 服务的一个 理想框架。不过现在与众多的框架比较，Tornado已经被抛在了后面，Django已经超过了它，更不说其他框架了，只能说Tornado使用纯python开发的性能还是不能与其他框架借助于cython开发的性能相比。
 
 # 4 web.py
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web.py 是一个Python 的web 框架，它简单而且功能强大。web.py 是公开的，无论用于什么用途都是没有限制的。而且相当的小巧，应当归属于轻量级的web 框架。但这并不影响web.py 的强大，而且使用起来很简单、很直接。在实际应用上，web.py 更多的是学术上的价值，因为你可以看到更多web 应用的底层，这在当今“抽象得很好”的web 框架上是学不到的 ：）
